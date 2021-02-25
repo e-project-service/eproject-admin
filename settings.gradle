@@ -1,0 +1,5 @@
+include 'eproject-admin-boot'
+
+rootProject.name = "${projectName}"
+project(':eproject-admin-boot').projectDir = new File('boot')
+
