@@ -2,16 +2,14 @@ package com.github.xiaoyao9184.eproject.admin;
 
 import de.codecentric.boot.admin.server.config.EnableAdminServer;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-import org.springframework.context.annotation.Configuration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.util.HashMap;
 
 /**
  * Created by xy on 2021/2/25.
  */
-@Configuration
-@EnableAutoConfiguration
+@SpringBootApplication
 @EnableAdminServer
 public class BootAdminApplication {
 
